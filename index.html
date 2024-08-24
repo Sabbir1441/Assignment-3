@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/6aec77a913.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <title>Rinterio</title>
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            }
+    </style>
 </head>
 <body>
-    
+
+    <header class="bg-gray-50">
+        <nav class="container mx-auto">
+            <div class="flex justify-between items-center py-10">
+                <!-- logo -->
+                <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-1 -rotate-45"></i>
+                    <h3 class="text-3xl font-extrabold">Rinterio</h3>
+                </div>
+
+                <!-- menu -->
+                 <div class="hidden md:block">
+                    <ul class="flex gap-5 text-[#737373]">
+                        <li class="text-stone-900 font-extrabold">Home</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Blogs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                 </div>
+                 <!-- menu button -->
+                  <div class="hidden md:block">
+                    <div class="flex gap-5">
+                        <button><i class="fa-solid fa-magnifying-glass p-3 border rounded-full bg-white"></i></button>
+                        <button><i class="fa-solid fa-cart-shopping p-3 border rounded-full bg-white"></i></button>
+                        <button class="flex gap-2 items-center bg-[#ABEF5F] px-5 py-3 rounded-full">
+                            <h3 class="text-2xl font-bold">Book Consult</h3>
+                            <i class="fa-solid fa-arrow-right p-2 bg-black text-white rounded-full -rotate-45"></i>
+                        </button>
+                      </div>
+                  </div>
+                  <div class="md:hidden">
+                    <i class="fa-solid fa-bars "></i>
+                  </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
 </html>
